@@ -1,0 +1,894 @@
+
+@font-face {
+    font-family: 'Mongolian Baiti';
+    src: url('../fonts/MongolianBaiti.woff2') format('woff2'),
+        url('../fonts/MongolianBaiti.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+ html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+
+	font-size: 4.5rem;
+	color: #FFF;
+}
+
+h2{
+	color:#3b4954;
+	font-weight: 300;
+	font-size: 3.3rem;
+}
+
+h3{
+	color:#FFF;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+
+h4{
+	color:#000000;
+	font-size: 2rem;
+	font-weight: 400;
+
+}
+
+p{
+	font-weight: 400;
+	font-size: 1.5rem;
+	color:#55616b;
+	line-height: 2.5rem;
+}
+ 
+ 
+ 
+   /*************************************************/
+  /********** 1 Start header menu ******************/
+ /*************************************************/
+
+.header-menu-section {
+	margin-bottom: 5rem;
+	margin-top: 2rem;
+}
+
+.logo {
+	width: 50%;
+	height: 100%;
+}
+
+.logo a{}
+
+.logo a img {
+	width: 50%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.menu-icon{
+	display: none;
+}
+.menu {
+	margin-top: 2rem;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.menu ul li {
+	margin-right: 4rem;
+}
+
+.menu ul li:last-child{
+	margin-right: 0;
+}
+
+.menu ul li a {
+	color: #000000;
+	font-size: 1.4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-top: 1px solid transparent;
+	padding-top: .5rem;
+	display: inline-block;
+	transition: .5s;
+}
+
+.menu ul li a:hover{
+	border-color: #6C63FF;
+ }
+
+
+button:focus{
+	outline: none;
+}
+
+/*detfault css*/
+
+.luxuary-area, .useful-infromation-area, .latest-content {
+	width: 60%;
+}
+
+.background-content h3, .luxuary-area h3,
+.video-content h3, .useful-infromation-area h3,
+.latest-content h3{
+	color: #000000;
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+}
+
+.background-content h1, .luxuary-area h1,
+.video-content h1, .useful-infromation-area h1,
+.latest-content h1 {
+	font-size: 5rem;
+	font-weight: 700;
+	color: #000000;
+	margin-bottom: 2rem;
+}
+
+.luxuary-area h2,.video-content h2, 
+.useful-infromation-area h2, .latest-content h2{
+	font-size: 1.8rem;
+	color: #000000;
+}
+
+
+   /*************************************************/
+  /********** Background section  ******************/
+ /*************************************************/
+
+ .background-section {
+	background: url('../../assets/img/bg/1.jpg') no-repeat scroll 0 0/cover;
+	background-position: 520px bottom;
+	background-size: 85% 100%;
+}
+
+.background-main-content{
+	padding-top: 25rem;
+	padding-bottom: 25rem;
+}
+
+.background-content {
+	max-width: 350px;
+}
+
+.background-content h2 {
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: #000000;
+}
+
+.contact-form {
+	padding-top: 2rem;
+}
+
+.contact {
+	 
+}
+
+.contact form{
+	display: flex;
+}
+
+.contact-form input[type="tel"] {
+	border: none;
+	box-shadow: 0px 3px 20px #06000033;
+	padding: 1.4rem 1rem;
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: #00000042;
+	transition: .5s;
+}
+
+.contact-form button {
+	font-size: 1.6rem;
+	font-weight: 600;
+	border: none;
+	background-image: linear-gradient(55deg, #F18E42 40%, #FAC563 40%);
+	color: #FFFFFF;
+	border-radius: 0px 5px 5px 0px;
+	transition: .5s;
+}
+
+.contact-form button:hover {
+	background-image: linear-gradient(55deg, #FAC563 40%,#F18E42 40%);
+}
+
+ 
+.contact-form input[type="tel"]:focus {
+	box-shadow: 5px 5px 20px #0000006b;
+}
+
+
+ 
+
+   /*************************************************/
+  /********** Luxuery section  *********************/
+ /*************************************************/
+
+.luxuary-area h1{}
+
+.luxuary-area h2{}
+
+.video-content h3 {
+	letter-spacing: 5px;
+}
+
+
+   /*************************************************/
+  /********** Luxuery section  *********************/
+ /*************************************************/
+
+ .blog-section {
+	padding: 5rem 0;
+}
+
+.blog-content {
+	padding: 3rem;
+	transition: .5s;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+
+.blog-content:hover {
+	box-shadow: 0px 3px 20px #0003;
+}
+
+.blog-section h2 {
+	font-size: 1.6rem;
+	color: #000000;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+ .blog-section h3{
+ 	font-size: 1.6rem;
+ 	color:#000000;
+
+ }
+
+
+   /*************************************************/
+  /********** video section  ***********************/
+ /*************************************************/
+
+.video {
+	padding-bottom: 3rem;
+}
+
+.youtue-video  {}
+
+.youtube-area {}
+
+.youtubevideo {
+	width:450px;
+	height:360px;
+	position: relative;
+	overflow: hidden;
+}
+
+.youtubevideo iframe{
+	width: 100%;
+	height: 100%;
+}
+
+.video-overly {}
+
+.overly-content {
+	position: absolute;
+	top: -100%;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	align-items: center;
+	background: rgb(108, 99, 255);
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	transition: .3s;
+
+}
+
+.youtubevideo:hover .overly-content {
+	visibility: visible;
+	top:0;
+	opacity: 1;
+}
+
+.overly-content a{}
+
+.overly-content a img {
+    width: 70px;
+    height: 70px;
+}
+
+.video-content {}
+
+.video-content h1{}
+
+.video-content h2 {
+	padding-top: 1rem;
+}
+
+.video-content h3{}
+
+.video-button button {
+	padding: 1.5rem 3rem;
+	border-radius: 5px;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+
+
+   /*************************************************/
+  /********** video section  ***********************/
+ /*************************************************/
+
+.useful-information {
+	padding: 5rem 0;
+}
+
+.useful-infromation-area h1{}
+
+.useful-infromation-area h2{}
+
+.useful-infromation-area h3{}
+
+
+   /*************************************************/
+  /********** Useful information********************/
+ /*************************************************/
+
+.date-time-section {
+	padding: 2rem 0;
+}
+
+ .date-time-list {}
+
+.date-time-list ul li {
+	display: flex;
+	padding: 1rem 1rem;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0px 3px 20px #00000059;
+	margin-bottom: 2rem;
+	transition: .5s;
+	position: relative;
+	cursor: pointer;
+}
+
+.date-time-list ul li::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	background-image: linear-gradient(90deg,#6C63FF 60%, #B577F4);
+	visibility: hidden;
+	opacity: 0;
+	transition: .5s;
+	 
+}
+
+.date-time-list ul li:hover::after{
+	visibility: visible;
+	opacity: 1;
+}
+
+ .date-time-list ul li i {
+	font-size: 1.6rem;
+	color: #000;
+}
+
+ .date-time-list ul li h3{
+ 	color:#000000;
+ 	font-size: 1.6rem;
+ 	font-weight: 700;
+ }
+
+.date-time-list ul li span {
+	background: #D4DFEC;
+	padding: .6rem 1rem;
+	border-radius: 5px;
+	color: #000;
+	font-size: 1.4rem;
+	font-weight: 700;
+	opacity: 0.4;
+}
+
+ 
+
+.date-time-list ul li:hover i{
+	color:#fff;
+	z-index: 11;
+	position: relative;
+}
+
+.date-time-list ul li:hover h3{
+	color:#fff;
+	z-index: 11;
+	position: relative;
+}
+
+.date-time-list ul li:hover span {
+	background: #fff;
+	color: #000000;
+	opacity: 1;
+	z-index: 11;
+	position: relative;
+}
+
+
+   /*************************************************/
+  /********** famous person ************************/
+ /*************************************************/
+
+.famous-section {
+	padding: 5rem 0;
+}
+
+.famous-content {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.famous-person-qoute {
+	width: 5rem;
+}
+
+.famous-content > img {
+	
+}
+
+ 
+
+.famous-content > h2{
+	font-size: 1.6rem;
+	color:#000000;
+	font-weight: 700;
+}
+
+.famous-person {}
+
+.famous-person ul {
+	display: flex;
+	align-items: center;
+}
+
+.famous-person ul li {
+	font-size: 4rem;
+	font-weight: 400;
+	font-family: Mongolian Baiti;
+	margin: 1rem 0;
+}
+
+.famous-person ul li:last-child {
+	border: 1px solid #70707040;
+	padding: 1rem;
+	border-radius: 50%;
+	margin: 0rem;
+	width: 25rem;
+	height: 14rem;
+}
+
+.famous-person ul li span {
+	padding: 1rem;
+	border: 1px solid #707070;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	opacity: 2.5;
+}
+
+.famous-person ul li img {
+	width: 8rem;
+}
+
+.famous-qoute.owl-carousel .owl-nav button.owl-prev {
+	color: #000000a6;
+	font-size: 4rem;
+}
+
+.famous-qoute.owl-carousel .owl-nav button.owl-prev:hover{
+	background: none;
+}
+
+.famous-qoute.owl-carousel .owl-nav button.owl-next {
+	color: #000000a6;
+	font-size: 4rem;
+}  
+
+.famous-qoute.owl-carousel .owl-nav button.owl-next:hover{
+	background: none;
+}
+
+   /*************************************************/
+  /******************* our team ********************/
+ /*************************************************/
+
+.our-team-section {}
+
+.team-title {
+	padding: 2rem 0;
+}
+
+.team-title h2 {
+	color: #000000;
+	font-size: 1.6rem;
+	letter-spacing: 5px;
+	margin-bottom: 1rem;
+}
+
+.team-title h1{
+	color:#000000;
+	font-size: 5rem;
+	font-weight: 700;
+
+}
+
+.team-member-description {
+	padding:4rem 0rem;
+}
+
+.team-content {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1.5rem;
+}
+
+.team-member-size {
+	width: 29%;
+	height: 100%;
+}
+
+.team-member-image {
+	width: 100%;
+	height: 100%;
+}
+
+.team-member-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.image-content {
+	padding-bottom: 3.3rem;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #0000001a;
+	border-left: none;
+	cursor: pointer;
+	position: relative;
+	padding-top: 1rem;
+	padding-left: 3.5rem;
+}
+
+.image-content::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	right: 0;
+	top: 0;
+	background-image: linear-gradient(90deg,#7265FE 60%,#C17AF2);
+	transition: .3s;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.image-content h1 a {
+	color: #000000;
+	font-size: 2rem;
+	font-weight: 700;
+	display: inline-block;
+}
+
+.image-content h2 {
+	color:#000;
+	font-size: 2rem;
+
+}
+
+.team-content:hover .image-content:after {
+	visibility: visible;
+	opacity: 1;
+}
+
+.team-content:hover .image-content h2{
+	position: relative;
+	z-index: 10;
+	color: #FFFFFF;
+}
+
+.team-content:hover .image-content h1 a{
+	position: relative;
+	z-index: 10;
+	color: #FFFFFF;
+}
+
+
+   /*************************************************/
+  /******************* Latest post *****************/
+ /*************************************************/
+
+.latest-section {
+	padding: 3rem 0;
+}
+
+ .latest-content h1{}
+
+ .latest-content h2{}
+
+.latest-content h3 {
+	letter-spacing: 5px;
+}
+
+
+
+   /*************************************************/
+  /******************* blog-section ****************/
+ /*************************************************/
+
+.blog-section{}
+
+.single-post {
+	box-shadow: 0px 3px 31px #0000002e;
+}
+
+.post-image {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+}
+
+.post-image:hover:before{
+	visibility: visible;
+	opacity: 1;
+}
+
+.post-image::before {
+	content: "";
+	background: linear-gradient(#6C63FF73 20%, #BF7AF273 60%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: .4s;
+}
+
+.post-image img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.post-content {
+	width: 90%;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.post-content ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.post-content ul li{}
+
+.post-content ul li a {
+	color: #000;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: 400;
+	transition: .3s;
+	display: inline-block;
+}
+
+.post-content ul li a:hover {
+	color: #6C63FF;
+}
+
+.post-content ul li a i{
+	margin-right: 1rem;
+} 
+
+.post-content ul li a span{}
+
+.post-content h1 {
+	font-size: 3rem;
+	font-weight: 700;
+	color: #000;
+	padding: 3rem 0;
+}
+
+.post-content > a {
+	color: #256ECE;
+	font-size: 1.6rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+	display: inline-block;
+	transition: .3s;
+}
+
+.post-content > a:hover{
+	text-decoration: underline;
+
+}
+
+
+
+   /*************************************************/
+  /******************* Subscribe-section ***********/
+ /*************************************************/
+
+.email-subcribe {
+	padding: 5rem 0;
+	background-image: linear-gradient(90deg,#6C63FF 60%, #BA78F3);
+}
+
+.subscribe-email {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.subscribe-email h1{
+	color:#FFFFFF;
+	font-weight: 700;
+	font-size: 2.2rem;
+}
+
+.subscribe-area {}
+
+.input-size {
+	width: 60rem;
+	height: 100%;
+	display: flex;
+}
+
+.input-size input[type="email"] {
+	width: 100%;
+	height: 100%;
+	padding: 1rem 1rem;
+	border: none;
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: #0000007a;
+}
+
+.input-email button {
+	border: none;
+	font-size: 2.2rem;
+	font-weight: 700;
+	background-image: linear-gradient(90deg,#EE7A37 20%, #FBCE69A3);
+	text-transform: uppercase;
+}
+
+   /*************************************************/
+  /******************* Footer-section **************/
+ /*************************************************/
+
+.footer-section {
+	padding-top: 6rem;
+	padding-bottom: 2rem;
+}
+
+.contact{}
+
+.contact h1, .popular h1, .service h1{
+	color: #000;
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin-bottom: 4rem;
+}
+
+.contact h3 {
+	color: #000;
+	font-size: 1.6rem;
+	font-weight: 400;
+	margin-bottom: 3rem;
+	width: 70%;
+}
+
+.phone {
+	margin-bottom: 3rem;
+}
+
+.phone ul{}
+
+.phone ul li{}
+
+.phone ul li a, .gmail ul li a {
+	color: #000;
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+.phone ul li span, .gmail ul li span {
+	margin-right: 1rem;
+}
+
+.gmail {
+	margin-bottom: 3rem;
+}
+
+.gmail ul{}
+
+.gmail ul li{}
+
+.gmail ul li a{}
+
+.gmail ul li a span{}
+
+.footer-button{}
+
+.footer-button ul {
+	display: flex;
+	 
+}
+
+.footer-button ul li {}
+
+.footer-button ul li a {
+	color: #000000e8;
+	padding: 1.5rem 1.5rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	display: inline-block;
+}
+
+.footer-button ul li:last-child a {
+}
+
+.popular {}
+
+.popular ul {}
+
+.popular ul li, .service ul li{
+	margin-bottom: 1.4rem;
+}
+
+.popular ul li:last-child, .service ul li:last-child{
+	margin-bottom: 0rem;
+}
+
+.popular ul li a, .service ul li a {
+	color: #000;
+	font-size: 1.6rem;
+	font-weight: 400;
+}

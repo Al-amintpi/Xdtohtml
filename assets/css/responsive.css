@@ -1,0 +1,100 @@
+@media all and (min-width: 1200px){
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+  
+
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1200px) {
+  .background-section {
+	background-size: 80% 100%;
+}
+
+}
+
+@media all and (min-width: 992px){
+  .menu ul{
+  	display: flex!important;
+  }
+
+
+}
+
+@media all and (max-width: 991px){
+
+.menu-icon{
+	display: block;
+}
+
+.logo-main-area{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-icon a {
+	width: 4rem;
+	display: block;
+	height: 4rem;
+	background: #000;
+	color: #fff;
+	font-size: 2rem;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 39px;
+	transition: .3s;
+}
+
+.menu-icon a:hover{
+	background:#6C63FF;
+	color:#000;
+}
+
+.menuarea{
+	position: relative;
+}
+
+.menu{
+	display: none;
+}
+
+.menu ul {
+	flex-direction: column;
+	align-items: start;
+	margin-left: 40%;
+	padding: 2rem 0;
+}
+
+.menu {
+	position: absolute;
+	top: 83px;
+	left: 0;
+	background-image: linear-gradient( 90deg,#7164FE 30%, #B966F6);
+	width: 100%;
+	border-radius: 10px;
+	margin-top: 0rem;
+}
+
+.menu ul li {
+	margin-right: 0rem;
+	margin-top: 2rem;
+}
+
+.menu ul li a:hover {
+	border-color: #fff;
+}
+
+}
+
+
+@media all and (max-width: 767px){
+
+} 
+
+@media all and (max-width: 575px){
+
+}
+
+ 
