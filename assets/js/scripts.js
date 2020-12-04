@@ -47,6 +47,25 @@ $(document).ready(function(){
 $('.menu-icon').click(function(){
 	$('.menu').slideToggle(1000);
 	return false;
-})
+});
+
+$(window).scroll(function(){
+	var value = $(this).scrollTop();
+	console.log(value);
+
+	if(value > 500){
+		$('.header-menu-section').addClass('fixedMenu');
+	}else{
+		$('.header-menu-section').removeClass('fixedMenu');
+	}
+});
+
+$('.scrolltop a').click(function(){
+
+		$('html,body').animate({
+			scrollTop:0
+		}, 1000);
+	 return false;
+});
 
 });

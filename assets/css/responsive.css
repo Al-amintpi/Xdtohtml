@@ -2,10 +2,7 @@
 
 }
 
-@media only screen and (max-width: 1199px) and (min-width: 992px)  {
-  
-
-}
+ 
 
 @media only screen and (max-width: 1300px) and (min-width: 1200px) {
   .background-section {
@@ -14,12 +11,48 @@
 
 }
 
+@media only screen and (max-width: 1199px) and (min-width: 1100px) {
+  .background-section {
+	background-position: 533px bottom;
+	background-size: 70% 100%;
+}
+}
+
+@media only screen and (max-width: 1099px) and (min-width: 1000px) {
+ .background-main-content {
+	padding-top: 13rem;
+	padding-bottom: 16rem;
+}
+
+.background-section {
+	background-position: 500px bottom;
+	background-size: 70% 90%;
+}
+
+}
+
+@media only screen and (max-width: 999px) and (min-width: 992px){
+
+ .background-section {
+	background-position: 524px bottom;
+	background-size: 63% 89%;
+}
+
+
+.background-main-content {
+	padding-top: 12rem;
+	padding-bottom: 20rem;
+}
+
+}
+
 @media all and (min-width: 992px){
-  .menu ul{
-  	display: flex!important;
-  }
-
-
+	.menu{
+		display: block !important;
+	}
+	.menu ul{
+		display: flex !important;
+	}
 }
 
 @media all and (max-width: 991px){
@@ -86,14 +119,138 @@
 	border-color: #fff;
 }
 
+.background-section {
+	background-position: -19rem 60%;
+	background-size: 141rem 70rem;
+}
+
+.single-post {
+	margin-bottom: 3rem;
+}
+
+.last-post{
+	margin-bottom: 0rem;
+}
+
+.blog-content {
+	text-align: center;
+}
+
+.luxuary-area, .useful-infromation-area, .latest-content {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0;
+}
+
+.video-content {
+	text-align: center;
+	padding: 3rem 0;
+}
+
+.contact-form {
+	text-align: center;
+}
+
+.youtubevideo {
+	width: 100%;
+	height: 360px;
+	position: relative;
+	overflow: hidden;
+}
+
+.famous-person ul {
+	flex-direction: column;
+}
+
+.famous-person ul li span {
+	 border: none; 
+	 
+}
+
+.useful-information {
+	padding: 3rem 0;
+}
+
+.subscribe-email {
+	flex-direction: column;
+}
+
+.subscribe-area {
+	margin-top: 1rem;
+}
+.famous-person ul li span {
+	width: 13rem;
+	height: 10rem;
+}
+
 }
 
 
 @media all and (max-width: 767px){
+ .input-size {
+	width: 50rem;
+}
+
+.contact, .popular,.service {
+	text-align: center;
+}
+
+.popular, .service{
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.contact h3 {
+	width: 100%;
+}
+
+.footer-button {
+	margin-left: 31%;
+}
+
+.team-member-description {
+	padding: 1rem 0rem;
+}
+
+ 
 
 } 
 
 @media all and (max-width: 575px){
+
+.contact form {
+	flex-direction: column;
+	 
+}
+
+.contact-form button {
+	padding: 1.2rem 1.2rem;
+	margin-top: 1rem;
+}
+
+
+
+.video-content {
+	margin-top: 3rem;
+}
+
+.contact {
+	text-align: center;
+}
+
+.team-title {
+	text-align: center;
+}
+
+.input-size {
+	width: 32rem;
+	flex-direction: column;
+}
+
+.input-email button {
+	padding: .7rem .7rem;
+	margin-top: 1rem;
+}
 
 }
 

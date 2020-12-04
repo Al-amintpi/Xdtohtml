@@ -71,9 +71,13 @@ p{
   /********** 1 Start header menu ******************/
  /*************************************************/
 
+.menuarea{
+	position: relative;
+}
+
 .header-menu-section {
-	margin-bottom: 5rem;
-	margin-top: 2rem;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
 }
 
 .logo {
@@ -169,6 +173,7 @@ button:focus{
 	background: url('../../assets/img/bg/1.jpg') no-repeat scroll 0 0/cover;
 	background-position: 520px bottom;
 	background-size: 85% 100%;
+	margin-top: 3rem;
 }
 
 .background-main-content{
@@ -289,8 +294,8 @@ button:focus{
 .youtube-area {}
 
 .youtubevideo {
-	width:450px;
-	height:360px;
+	width: 450px;
+	height: 393px;
 	position: relative;
 	overflow: hidden;
 }
@@ -492,12 +497,7 @@ button:focus{
 }
 
 .famous-person ul li:last-child {
-	border: 1px solid #70707040;
-	padding: 1rem;
-	border-radius: 50%;
-	margin: 0rem;
-	width: 25rem;
-	height: 14rem;
+	 
 }
 
 .famous-person ul li span {
@@ -507,7 +507,11 @@ button:focus{
 	display: inline-block;
 	text-align: center;
 	opacity: 2.5;
+
+
 }
+
+
 
 .famous-person ul li img {
 	width: 8rem;
@@ -563,15 +567,16 @@ button:focus{
 	display: flex;
 	align-items: center;
 	margin-bottom: 1.5rem;
+	width: 100%;
+	height: 19.4rem;
+	border: 1px solid #0000002b;
 }
 
 .team-member-size {
-	width: 29%;
 	height: 100%;
 }
-
 .team-member-image {
-	width: 100%;
+	flex:0 0 35%;
 	height: 100%;
 }
 
@@ -582,15 +587,21 @@ button:focus{
 }
 
 .image-content {
-	padding-bottom: 3.3rem;
-	width: 100%;
-	height: 100%;
-	border: 1px solid #0000001a;
-	border-left: none;
 	cursor: pointer;
 	position: relative;
-	padding-top: 1rem;
-	padding-left: 3.5rem;
+	flex: 1 0 65%;
+	height: 100%;
+}
+
+.table {
+	display: table;
+	height: 100%;
+}
+
+.table-cell {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 2rem;
 }
 
 .image-content::after {
@@ -610,7 +621,7 @@ button:focus{
 	color: #000000;
 	font-size: 2rem;
 	font-weight: 700;
-	display: inline-block;
+	display:block;
 }
 
 .image-content h2 {
@@ -805,7 +816,6 @@ button:focus{
 
 .footer-section {
 	padding-top: 6rem;
-	padding-bottom: 2rem;
 }
 
 .contact{}
@@ -891,4 +901,40 @@ button:focus{
 	color: #000;
 	font-size: 1.6rem;
 	font-weight: 400;
+}
+
+.popular ul li a:hover, .service ul li a:hover  {
+	text-decoration: underline;
+}
+
+.fixedMenu {
+	position: fixed;
+	background: #ddd;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.scrolltop {
+	float: right;
+	height: 5rem;
+}
+
+.scrolltop a {
+	width: 4rem;
+	height: 4rem;
+	display: inline-block;
+	background-image: linear-gradient(90deg,#190FB9 60%, #BA78F3);
+	text-align: center;
+	font-size: 2rem;
+	color: #fff;
+	font-weight: 700;
+	line-height: 42px;
+	border-radius: 5px 5px 0px 0px;
+	transform: rotate(25deg);
+	transition: .3s;
+}
+.scrolltop a:hover{
+	transform: rotate(0deg);
 }
